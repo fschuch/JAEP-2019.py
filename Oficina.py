@@ -1523,7 +1523,9 @@ del A,B,F5,F6,F7,I,angle,cos,i,key,sin
 # \end{equation}
 # onde $\Theta(X, \tau) = \dfrac{T(x,t) - T_i}{T_p - T_i}$ representa a temperatura adimensional, $X = \dfrac{x}{L}$ o sistema de coordenadas, $\tau = \dfrac{\alpha t}{L^2}$ o tempo, $C(X, \tau) = \dfrac{c(x,t) - c_i}{c_p - c_i}$ a concentração de carbono e $Le = \dfrac{\alpha}{D}$ o número de Lewis. Determine o tempo adimensional necessário para que no centro da peça $C(X/2)=75\%$. Grafique a evolução da temperatura e da concentração no centro da peça em função do tempo. Em situações reais, a difusão mássica é muito menor que a diffusão térmica, de modo que o número de Lewis seja da ordem de $10^6$, desta maneira, para fins didáticos, assuma que $Le = \dfrac{4}{1+2\Theta^{3/2}}$.
 
-# 2. **Visualizações animadas**. Pode-se tirar proveito de belas animações interativas produzidas pela Matplotlib. Para tanto, dois exercícios resolvidos podem ser revisitados:
+# 2. **Transferência de calor**. Com base no exemplo resolvido 3.2.1, grafique como a temperatura na parede $T_2$ varia em função da emissividade da superfície externa, considerando $0 \le \epsilon \le 1$.
+
+# 3. **Visualizações animadas**. Pode-se tirar proveito de belas animações interativas produzidas pela Matplotlib. Para tanto, dois exercícios resolvidos podem ser revisitados:
 # 
 #     a. Primeiramente, o exercício 3.3.1 de vibrações mecânicas, produzindo uma animação para a variação de posição das duas massas com o tempo;
 # 
@@ -1532,6 +1534,12 @@ del A,B,F5,F6,F7,I,angle,cos,i,key,sin
 #     Material complementar:
 #     * [Embedding Matplotlib Animations in Jupyter as Interactive JavaScript Widgets](http://louistiao.me/posts/notebooks/embedding-matplotlib-animations-in-jupyter-as-interactive-javascript-widgets/)
 
-# 3. **Resistência dos Materiais**. De volta ao exercício resolvido 3.6.1, encontre um maneira de produzir as matrizes `A` e `B` automaticamente, sendo fornecidos ao código apenas a posição espacial dos nós da treliça, e as forças de ligação entre eles. Compare com a resposta obtida anteriormente para verificação do novo código. Grafique os resultados.
+# 4. **Resistência dos Materiais**. De volta ao exercício resolvido 3.6.1, encontre um maneira de produzir as matrizes `A` e `B` automaticamente, sendo fornecidos ao código apenas a posição espacial dos nós da treliça, e as forças de ligação entre eles. Compare com a resposta obtida anteriormente para verificação do novo código. Grafique os resultados.
 
-# 4. **Fenômenos de Transporte**. Empregar o conceito de operador diferencial estabelecido pelo módulo `diferencial.py` ao exercício resolvido 3.2.2. Comparar com a resposta obtida anteriormente para verificação do novo código.
+# 5. **Fenômenos de Transporte**. Empregar o conceito de operador diferencial estabelecido pelo módulo `diferencial.py` ao exercício resolvido 3.2.2. Comparar com a resposta obtida anteriormente para verificação do novo código.
+
+# In[ ]:
+
+
+
+
