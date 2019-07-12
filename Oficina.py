@@ -4,7 +4,7 @@
 # <img src="JEAP.jpg" width="720">
 
 # <h1>Sumário<span class="tocSkip"></span></h1>
-# <div class="toc"><ul class="toc-item"><li><span><a href="#Introdução" data-toc-modified-id="Introdução-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introdução</a></span><ul class="toc-item"><li><span><a href="#Sobre-o-autor" data-toc-modified-id="Sobre-o-autor-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Sobre o autor</a></span></li><li><span><a href="#Sobre-o-material" data-toc-modified-id="Sobre-o-material-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Sobre o material</a></span></li><li><span><a href="#Porque-Python?" data-toc-modified-id="Porque-Python?-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Porque Python?</a></span></li><li><span><a href="#Porque-Jupyter-Notebooks?" data-toc-modified-id="Porque-Jupyter-Notebooks?-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>Porque Jupyter Notebooks?</a></span></li><li><span><a href="#Material-Complementar" data-toc-modified-id="Material-Complementar-1.5"><span class="toc-item-num">1.5&nbsp;&nbsp;</span>Material Complementar</a></span></li></ul></li><li><span><a href="#Revisão" data-toc-modified-id="Revisão-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Revisão</a></span><ul class="toc-item"><li><span><a href="#Módulos" data-toc-modified-id="Módulos-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Módulos</a></span></li><li><span><a href="#Classes" data-toc-modified-id="Classes-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Classes</a></span></li><li><span><a href="#Dicionários" data-toc-modified-id="Dicionários-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Dicionários</a></span></li><li><span><a href="#Principais-Bibliotecas" data-toc-modified-id="Principais-Bibliotecas-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Principais Bibliotecas</a></span></li><li><span><a href="#Boas-práticas-em-programação" data-toc-modified-id="Boas-práticas-em-programação-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Boas práticas em programação</a></span></li><li><span><a href="#Fortran-vs.-Python" data-toc-modified-id="Fortran-vs.-Python-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>Fortran vs. Python</a></span></li></ul></li><li><span><a href="#Exercícios-Resolvidos" data-toc-modified-id="Exercícios-Resolvidos-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Exercícios Resolvidos</a></span><ul class="toc-item"><li><span><a href="#Métodos-numéricos" data-toc-modified-id="Métodos-numéricos-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Métodos numéricos</a></span></li><li><span><a href="#Fenômenos-de-Transporte" data-toc-modified-id="Fenômenos-de-Transporte-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Fenômenos de Transporte</a></span></li><li><span><a href="#Vibrações-Mecânicas" data-toc-modified-id="Vibrações-Mecânicas-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Vibrações Mecânicas</a></span></li><li><span><a href="#Engenharia-Econômica" data-toc-modified-id="Engenharia-Econômica-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>Engenharia Econômica</a></span></li><li><span><a href="#Eletronica" data-toc-modified-id="Eletronica-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>Eletronica</a></span></li><li><span><a href="#Resistência-dos-Materiais" data-toc-modified-id="Resistência-dos-Materiais-3.6"><span class="toc-item-num">3.6&nbsp;&nbsp;</span>Resistência dos Materiais</a></span></li></ul></li><li><span><a href="#Exercícios-Propostos" data-toc-modified-id="Exercícios-Propostos-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Exercícios Propostos</a></span><ul class="toc-item"><li><span><a href="#Ciência-dos-Materiais" data-toc-modified-id="Ciência-dos-Materiais-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Ciência dos Materiais</a></span></li></ul></li></ul></div>
+# <div class="toc"><ul class="toc-item"><li><span><a href="#Introdução" data-toc-modified-id="Introdução-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introdução</a></span><ul class="toc-item"><li><span><a href="#Sobre-o-autor" data-toc-modified-id="Sobre-o-autor-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Sobre o autor</a></span></li><li><span><a href="#Sobre-o-material" data-toc-modified-id="Sobre-o-material-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Sobre o material</a></span></li><li><span><a href="#Porque-Python?" data-toc-modified-id="Porque-Python?-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Porque Python?</a></span></li><li><span><a href="#Porque-Jupyter-Notebooks?" data-toc-modified-id="Porque-Jupyter-Notebooks?-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>Porque Jupyter Notebooks?</a></span></li><li><span><a href="#Material-Complementar" data-toc-modified-id="Material-Complementar-1.5"><span class="toc-item-num">1.5&nbsp;&nbsp;</span>Material Complementar</a></span></li></ul></li><li><span><a href="#Revisão" data-toc-modified-id="Revisão-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Revisão</a></span><ul class="toc-item"><li><span><a href="#Listas" data-toc-modified-id="Listas-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Listas</a></span></li><li><span><a href="#Dicionários" data-toc-modified-id="Dicionários-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Dicionários</a></span></li><li><span><a href="#Módulos" data-toc-modified-id="Módulos-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Módulos</a></span></li><li><span><a href="#Principais-Bibliotecas" data-toc-modified-id="Principais-Bibliotecas-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Principais Bibliotecas</a></span></li><li><span><a href="#Fortran-vs.-Python" data-toc-modified-id="Fortran-vs.-Python-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Fortran vs. Python</a></span></li></ul></li><li><span><a href="#Exercícios-Resolvidos" data-toc-modified-id="Exercícios-Resolvidos-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Exercícios Resolvidos</a></span><ul class="toc-item"><li><span><a href="#Métodos-numéricos" data-toc-modified-id="Métodos-numéricos-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Métodos numéricos</a></span></li><li><span><a href="#Fenômenos-de-Transporte" data-toc-modified-id="Fenômenos-de-Transporte-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Fenômenos de Transporte</a></span></li><li><span><a href="#Vibrações-Mecânicas" data-toc-modified-id="Vibrações-Mecânicas-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Vibrações Mecânicas</a></span></li><li><span><a href="#Engenharia-Econômica" data-toc-modified-id="Engenharia-Econômica-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>Engenharia Econômica</a></span></li><li><span><a href="#Eletrônica" data-toc-modified-id="Eletrônica-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>Eletrônica</a></span></li><li><span><a href="#Resistência-dos-Materiais" data-toc-modified-id="Resistência-dos-Materiais-3.6"><span class="toc-item-num">3.6&nbsp;&nbsp;</span>Resistência dos Materiais</a></span></li></ul></li><li><span><a href="#Exercícios-Propostos" data-toc-modified-id="Exercícios-Propostos-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Exercícios Propostos</a></span></li></ul></div>
 
 # ## Introdução
 # 
@@ -18,6 +18,11 @@
 # > felipe.schuch@edu.pucrs.br
 
 # ### Sobre o material
+# 
+# * O objetivo desta palestra é **introduzir os principais conceitos empregados em programação e Python**, mais especificamente no contexto interativo da plataforma Jupyter Notebook;
+# * Além de demonstrar como **solucionar diversos problemas de engenharia** por meio de propostas computacionais;
+# * Para tanto, o material inclui uma breve **revisão de conceitos fundamentais**, estruturas de dados e as principais bibliotecas científicas disponíveis. Para maiores detalhes, **pode-se consultar a documentação disponível** ou mesmo as diversas leituras recomendadas que aparecem no decorrer do texto.
+# * Finalmente, **a prática leva a perfeição**, há uma série de exercícios propostos ao final do material, visando a fixação do conhecimento.
 
 # ### Porque Python?
 # 
@@ -45,6 +50,8 @@
 # * [12 Steps to Navier-Stokes](https://github.com/barbagroup/CFDPython)
 # * [An example machine learning notebook](https://nbviewer.jupyter.org/github/rhiever/Data-Analysis-and-Machine-Learning-Projects/blob/master/example-data-science-notebook/Example%2520Machine%2520Learning%2520Notebook.ipynb)
 # * [Mythbusters Demo GPU versus CPU](https://www.youtube.com/watch?v=-P28LKWTzrI)
+# * [Why I write with LaTeX (and why you should too)](https://medium.com/@marko_kovic/why-i-write-with-latex-and-why-you-should-too-ba6a764fadf9)
+# * [New Developer? You should’ve learned Git yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa)
 
 # ## Revisão
 
@@ -103,13 +110,260 @@ else:
     print('i não é igual a 4, i é igual a '+str(i))
 
 
-# ### Módulos
+# Material complementar:
+# * [More Control Flow Tools](https://docs.python.org/3/tutorial/controlflow.html)
+
+# ### Listas
 # 
-# ### Classes
-# 
+# * Um exemplo dos principais métodos:
+
+# In[7]:
+
+
+fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+
+
+# In[8]:
+
+
+fruits[2]
+
+
+# In[9]:
+
+
+fruits.count('apple')
+
+
+# In[10]:
+
+
+fruits.count('tangerine')
+
+
+# In[11]:
+
+
+fruits.index('banana')
+
+
+# In[12]:
+
+
+fruits.index('banana', 4)  # Find next banana starting a position 4
+
+
+# In[13]:
+
+
+fruits.reverse()
+fruits
+
+
+# In[14]:
+
+
+fruits.append('grape')
+fruits
+
+
+# In[15]:
+
+
+fruits.sort()
+fruits
+
+
+# In[16]:
+
+
+fruits.pop()
+
+
+# In[17]:
+
+
+for f in fruits:
+    print(f)
+
+
+# In[18]:
+
+
+for i, f in enumerate(fruits):
+    print(i,f)
+
+
+# * Usando listas como pilha:
+# Os métodos de lista facilitam muito o uso de uma lista como uma pilha (*Stacks*), onde o último elemento adicionado é o primeiro elemento recuperado (*“last-in, first-out”*). Para adicionar um item ao topo da pilha, use `append()`. Para recuperar um item do topo da pilha, use `pop()` sem um índice explícito. Por exemplo:
+
+# In[19]:
+
+
+stack = [3, 4, 5]
+stack.append(6)
+stack.append(7)
+stack
+
+
+# In[20]:
+
+
+stack.pop()
+
+
+# In[21]:
+
+
+stack.pop()
+
+
+# In[22]:
+
+
+stack.pop()
+
+
+# In[23]:
+
+
+stack
+
+
 # ### Dicionários
 # 
+# Ao contrário das seqüências, que são indexadas por um intervalo de números, **os dicionários são indexados por chaves (*keys*)**, que podem ser de qualquer tipo imutável; *strings* e números sempre podem ser usados como chave.
+# 
+# É melhor pensar em um dicionário como um conjunto de pares `key: value`, com a exigência de que as chaves sejam **exclusivas** (dentro de um dicionário).
+# 
+# As operações principais em um dicionário estão armazenando um valor com alguma chave e extraindo o valor dado a chave. Também é possível excluir um par `key: value` com `del`. **Se você armazenar usando uma chave que já está em uso, o valor antigo associado a essa chave será esquecido**. É um erro extrair um valor usando uma chave inexistente.
+# 
+# A execução de `list()` em um dicionário retorna uma lista de todas as chaves usadas no dicionário, em ordem de inserção (se você quiser classificá-las, use apenas `sorted()`). Para verificar se uma única chave está no dicionário, use a palavra-chave `in`.
+
+# In[24]:
+
+
+tel = {'jack': 4098, 'sape': 4139}
+tel['guido'] = 4127
+tel
+
+
+# In[25]:
+
+
+tel['jack']
+
+
+# In[26]:
+
+
+del tel['sape']
+tel['irv'] = 4127
+tel
+
+
+# In[27]:
+
+
+list(tel)
+
+
+# In[28]:
+
+
+sorted(tel)
+
+
+# In[29]:
+
+
+'guido' in tel
+
+
+# In[30]:
+
+
+'jack' not in tel
+
+
+# In[31]:
+
+
+for key, t in tel.items():
+    print(key, t)
+
+
+# ### Módulos
+# 
+# Se você sair do interpretador Python e voltar novamente, as definições feitas (funções e variáveis) serão perdidas. Portanto, se você quiser escrever um programa um pouco mais longo, é melhor usar um editor de texto para preparar a entrada para o interpretador e executá-lo com esse arquivo como entrada. **Isso é conhecido como criar um script**. À medida que seu programa fica mais longo, você pode querer dividi-lo em vários arquivos para **facilitar a manutenção**. Você também pode usar uma função útil que tenha escrito em **vários programas sem copiar sua definição** em cada programa.
+# 
+# Para suportar isso, o Python tem uma maneira de colocar as definições em um arquivo e usá-las em um script ou em uma instância interativa do interpretador. **Esse arquivo é chamado de módulo**; As definições de um módulo podem ser importadas para outros módulos ou para o módulo principal.
+# 
+# Um módulo é um arquivo contendo definições e instruções do Python. O nome do arquivo é o nome do módulo com o sufixo `.py` acrescentado. Dentro de um módulo, o nome do módulo (como uma string) está disponível como o valor da variável global `__name__`.
+
+# Por exemplo, use seu editor de texto favorito para criar um arquivo chamado `fibo.py` no diretório atual com o seguinte conteúdo:
+# 
+# ```Python
+# # Fibonacci numbers module
+# 
+# def fib(n):    # write Fibonacci series up to n
+#     a, b = 0, 1
+#     while a < n:
+#         print(a, end=' ')
+#         a, b = b, a+b
+#     print()
+# 
+# def fib2(n):   # return Fibonacci series up to n
+#     result = []
+#     a, b = 0, 1
+#     while a < n:
+#         result.append(a)
+#         a, b = b, a+b
+#     return result
+# ```
+
+# In[32]:
+
+
+import fibo
+
+
+# In[33]:
+
+
+fibo.fib(1000)
+
+
+# In[34]:
+
+
+fibo.fib2(100)
+
+
+# In[35]:
+
+
+fibo.__name__
+
+
+# In[36]:
+
+
+dir(fibo)
+
+
+# Material complementar:
+# * [Python - Modules](https://www.tutorialspoint.com/python/python_modules)
+# * [The Python Tutorial - Modules](https://docs.python.org/3/tutorial/modules.html)
+# * [Data Structures](https://docs.python.org/3/tutorial/datastructures.html)
 # * [Dictionaries in Python](https://realpython.com/python-dicts/)
+# * [Classes](https://docs.python.org/2/tutorial/classes.html)
+
+# In[38]:
+
+
+del c, f, fruits, g, i, key, s, stack, t, tel
+
 
 # ### Principais Bibliotecas
 
@@ -123,28 +377,28 @@ else:
 # * A comunidade de pessoas que usam e desenvolvem essa biblioteca.
 # * Várias conferências dedicadas à computação científica em Python - SciPy, EuroSciPy e SciPy.in.
 # * Fazem parte da família os pacotes, que serão melhor descritos a seguir:
-#   * Numpy
-#   * Matplotlib
-#   * Sympy
-#   * IPython
-#   * Pandas
+#     * Numpy
+#     * Matplotlib
+#     * Sympy
+#     * IPython
+#     * Pandas
 
 # * Além disso, a própria biblioteca SciPy, um componente do conjunto SciPy, fornecendo muitas rotinas numéricas:
-#   * Funções especiais
-#   * Integração numérica
-#   * Diferenciação numérica
-#   * Otimização
-#   * Interpolação
-#   * Transformada de Fourier
-#   * Processamento de sinal
-#   * Algebra linear e Algebra linear esparsa
-#   * Problema de autovalor esparso com ARPACK
-#   * Algoritmos e estruturas de dados espaciais
-#   * Estatistica
-#   * Processamento de imagem multidimensional
-#   * I/O de arquivos
+#     * Funções especiais
+#     * Integração numérica
+#     * Diferenciação numérica
+#     * Otimização
+#     * Interpolação
+#     * Transformada de Fourier
+#     * Processamento de sinal
+#     * Algebra linear e Algebra linear esparsa
+#     * Problema de autovalor esparso com ARPACK
+#     * Algoritmos e estruturas de dados espaciais
+#     * Estatistica
+#     * Processamento de imagem multidimensional
+#     * I/O de arquivos
 
-# In[7]:
+# In[39]:
 
 
 import scipy as sp
@@ -168,67 +422,67 @@ import scipy.sparse as sps
 # 
 # Além de seus usos científicos óbvios, o NumPy também pode ser usado como um contêiner multidimensional eficiente de dados genéricos. Tipos de dados arbitrários podem ser definidos. Isso permite que o NumPy integre-se de forma fácil e rápida a uma ampla variedade de bancos de dados.
 
-# In[9]:
+# In[40]:
 
 
 import numpy as np # Importando a biblioteca numpy e definindo-a com o codnome de np
 
 
-# In[10]:
+# In[41]:
 
 
 print(np.arange.__doc__) # É sempre possível checar a documentação de uma dada função
 
 
-# In[11]:
+# In[42]:
 
 
 a = np.arange(15).reshape(3, 5) # Criando um arranjo com 15 elementos e o redimensionando para o formato 3x5
 
 
-# In[12]:
+# In[43]:
 
 
 a # Escrevendo a
 
 
-# In[13]:
+# In[44]:
 
 
 a.shape # Verificando as dimensões do arranjo
 
 
-# In[14]:
+# In[45]:
 
 
 a.ndim # O número de dimensões
 
 
-# In[15]:
+# In[46]:
 
 
 a.dtype.name # Classificação quando ao tipo dos elementos
 
 
-# In[16]:
+# In[47]:
 
 
 a.itemsize # Tamanho em bytes de cada elemento
 
 
-# In[17]:
+# In[48]:
 
 
 a.size # Número total de elementos no arranjo
 
 
-# In[18]:
+# In[49]:
 
 
 type(a)
 
 
-# In[19]:
+# In[50]:
 
 
 # outras funções que merecem destaque:
@@ -253,13 +507,13 @@ for f in [np.zeros, np.zeros_like, np.ones, np.linspace]:
 # * Dados de matriz arbitrária (homogeneamente digitados ou heterogêneos) com rótulos de linha e coluna;
 # * Qualquer outra forma de conjuntos de dados observacionais / estatísticos. Os dados realmente não precisam ser rotulados para serem colocados em uma estrutura de dados de pandas.
 
-# In[20]:
+# In[51]:
 
 
 import pandas as pd
 
 
-# In[21]:
+# In[52]:
 
 
 df2 = pd.DataFrame({'A': 1.,
@@ -270,19 +524,19 @@ df2 = pd.DataFrame({'A': 1.,
                     'F': 'foo'})
 
 
-# In[22]:
+# In[53]:
 
 
 df2
 
 
-# In[23]:
+# In[54]:
 
 
 print(pd.DataFrame.__doc__)
 
 
-# In[24]:
+# In[55]:
 
 
 #função bônus:
@@ -299,14 +553,14 @@ print(df2.to_latex())
 # 
 # SymPy é uma biblioteca Python para **matemática simbólica**. O objetivo é tornar-se um sistema de álgebra computacional (CAS) completo, mantendo o código o mais simples possível para ser compreensível e facilmente extensível. SymPy é escrito inteiramente em Python.
 
-# In[25]:
+# In[56]:
 
 
 import sympy as sm
 sm.init_printing() #Para escrever equações na tela
 
 
-# In[26]:
+# In[57]:
 
 
 x, t = sm.symbols('x t') # Criando símbolo
@@ -314,7 +568,7 @@ x, t = sm.symbols('x t') # Criando símbolo
 
 # calcular $\int (e^x \sin(x) + e^x \cos(x)) dx$
 
-# In[27]:
+# In[58]:
 
 
 sm.integrate(sm.exp(x)*sm.sin(x) + sm.exp(x)*sm.cos(x), x)
@@ -322,7 +576,7 @@ sm.integrate(sm.exp(x)*sm.sin(x) + sm.exp(x)*sm.cos(x), x)
 
 # calcular a derivada de $\sin(x)e^x$
 
-# In[28]:
+# In[59]:
 
 
 sm.diff(sm.sin(x)*sm.exp(x), x)
@@ -331,7 +585,7 @@ sm.diff(sm.sin(x)*sm.exp(x), x)
 # calcular $\int_{-\infty}^{\infty} \sin(x^2)$
 # 
 
-# In[29]:
+# In[60]:
 
 
 sm.integrate(sm.sin(x**2), (x, -sm.oo, sm.oo))
@@ -339,7 +593,7 @@ sm.integrate(sm.sin(x**2), (x, -sm.oo, sm.oo))
 
 # calcular $\lim_{x \to 0} \dfrac{\sin(x)}{x}$
 
-# In[30]:
+# In[61]:
 
 
 sm.limit(sm.sin(x)/x, x, 0)
@@ -347,7 +601,7 @@ sm.limit(sm.sin(x)/x, x, 0)
 
 # resolver $x^2 - 2 = 0$
 
-# In[31]:
+# In[62]:
 
 
 sm.solve(x**2 - 2, x)
@@ -355,7 +609,7 @@ sm.solve(x**2 - 2, x)
 
 # resolver a equação diferencial $y'' - y = e^t$
 
-# In[32]:
+# In[63]:
 
 
 y = sm.Function('y')
@@ -363,11 +617,11 @@ eq1 = sm.dsolve(sm.Eq(y(t).diff(t, t) - y(t), sm.exp(t)), y(t))
 eq1
 
 
-# In[33]:
+# In[64]:
 
 
 #Bônus
-sm.latex(eq1)
+print(sm.latex(eq1))
 
 
 # Material complementar:
@@ -387,20 +641,20 @@ sm.latex(eq1)
 # * [Style sheets reference](https://matplotlib.org/3.1.0/gallery/style_sheets/style_sheets_reference.html)
 # * [Gallery](https://matplotlib.org/3.1.0/gallery/index.html)
 
-# In[34]:
+# In[65]:
 
 
 import matplotlib.pyplot as plt
 
 
-# In[35]:
+# In[66]:
 
 
 #Definindo um novo estilo para as figuras [opcional]
 plt.style.use(['seaborn-notebook']) 
 
 
-# In[36]:
+# In[67]:
 
 
 x = np.arange(0, 5, 0.1)
@@ -420,13 +674,11 @@ plt.plot(x, y)
 # * [Tutorial](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb)
 # * [Gallery](https://bokeh.pydata.org/en/latest/docs/gallery.html)
 
-# In[37]:
+# In[68]:
 
 
 import bokeh as bk
 
-
-# ### Boas práticas em programação
 
 # ### Fortran vs. Python
 
@@ -478,7 +730,7 @@ import bokeh as bk
 # 
 # e ainda processar o arquivo de saída `teste.csv` em outro software.
 
-# In[38]:
+# In[69]:
 
 
 x = np.linspace(0., 2*np.pi, num=200, endpoint=True)
@@ -493,7 +745,7 @@ plt.legend()
 plt.show()
 
 
-# In[39]:
+# In[70]:
 
 
 #Ou ainda:
@@ -504,10 +756,11 @@ plt.legend()
 plt.show()
 
 
-# In[40]:
+# In[71]:
 
 
-del x, f
+del a, cosx, df2, eq1, sinx, t, x, y
+plt.close('all')
 
 
 # ## Exercícios Resolvidos
@@ -581,10 +834,10 @@ del x, f
 #     f'' = D_x^2 f
 # \end{equation}
 
-# In[41]:
+# In[72]:
 
 
-x = np.linspace(0., 2*np.pi, num=200, endpoint=False)
+x = np.linspace(0., 2.*np.pi, num=200, endpoint=False)
 
 dx = (x[1]-x[0])
 
@@ -667,12 +920,11 @@ for D in [Dx, Dx2]:
 #     Dx2 /= dx**2.
 #     return x, Dx, Dx2
 # ```
-# 
-# Agora pode-se importar o novo módulo com:
 
-# In[42]:
+# In[73]:
 
 
+#Agora pode-se importar o novo módulo com
 import diferencial as dv
 
 x, Dx, Dx2 = dv.ordem2(n=100, P=False)
@@ -771,7 +1023,7 @@ plt.show()
 # \right)
 # \end{equation}
 
-# In[43]:
+# In[74]:
 
 
 x = np.linspace(0., 2*np.pi, num=201, endpoint=True)
@@ -786,7 +1038,7 @@ for i in [0, -1]: #Condições de contorno
 Ix.dot(f).sum() #Integral
 
 
-# In[44]:
+# In[75]:
 
 
 #Ou alternativamente, utilizando o scipy:
@@ -798,6 +1050,13 @@ sp.integrate.trapz(f,x)
 # * [Finite Difference Coefficients Calculator](http://web.media.mit.edu/~crtaylor/calculator.html)
 # * [Trapezoidal rule](https://en.wikipedia.org/wiki/Trapezoidal_rule)
 # * MOIN, Parviz. **Fundamentals of engineering numerical analysis**. Cambridge University Press, 2010.
+
+# In[76]:
+
+
+del D, Dx, Dx2, Ix, dx, f, i, x
+plt.close('all')
+
 
 # ### Fenômenos de Transporte
 # 
@@ -811,7 +1070,7 @@ sp.integrate.trapz(f,x)
 # 
 # 
 
-# In[45]:
+# In[92]:
 
 
 k, t1, t2, l, epsi, sigma, tviz, too, h = sm.symbols("k t_1 t_2 L \epsilon \sigma t_{viz} t_\infty h")
@@ -829,27 +1088,24 @@ for val in sol:
             print('T2 = {0:3.2f} graus celsius'.format(val-273.))  
 
 
-# In[46]:
+# In[93]:
 
 
-del k, t1, t2, l, epsi, sigma, tviz, too, h, eq1, dic, sol
+del k, t1, t2, l, epsi, sigma, tviz, too, h, eq1, dic, sol, val
 
 
 # 2. **Condição de calor transiente bidimensional**. Uma placa de cobre de $50cm \times 50cm$ inicialmente possui temperatura em toda a sua extensão igual a $0^oC$. Instantaneamente , suas bordas são levadas às temperaturas de $60^oC$ em $x=0$; $20^oC$ em $x=50cm$; $0^oC$ em $y=0$ e $100^oC$ em $y=50$. A difusividade térmica do cobre é $1,1532cm^2/s$. Considerando um $\Delta t = 4s$, $\Delta x = \Delta y = 5cm$, calcule a evolução da temperatura para a posição central da placa até o tempo de $400s$. Para o tempo de $200s$ apresente o perfil de temperatura em todos os pontos discretos do domínio.
-# 
-# Equação bidimensional:
-# 
+#     Equação bidimensional:
 # \begin{equation}
 # \alpha \left( \dfrac{\partial ^2 T}{\partial x^2} + \dfrac{\partial ^2 T}{\partial y^2} \right) =\dfrac{\partial T}{\partial t}
 # \end{equation}
-# 
-# Discretizando com a derivada segunda numa representação por diferença central e a derivada primeira com diferença ascendente:
+#     Discretizando com a derivada segunda numa representação por diferença central e a derivada primeira com diferença ascendente:
 # 
 # \begin{equation}
 # \dfrac{T^{n+1}_{l,j}-T^{n}_{l,j}}{\Delta t}=\alpha \left[ \dfrac{T^{n}_{l-1,j}-2T^{n}_{l,j}+T^{n}_{l+1,j}}{(\Delta x)^2} +\dfrac{T^{n}_{l,j-1}-2T^{n}_{l,j}+T^{n}_{l,j+1}}{(\Delta y)^2}  \right]
 # \end{equation}
 
-# In[47]:
+# In[99]:
 
 
 x = np.linspace(0., 50., num=11, endpoint=True)
@@ -863,7 +1119,7 @@ T = np.zeros((x.size,y.size,t.size))
 T[0,:,:], T[-1,:,:], T[:,0,:], T[:,-1,:] = 60., 20., 0., 100.
 
 
-# In[48]:
+# In[100]:
 
 
 dt = t[1]-t[0]
@@ -875,7 +1131,7 @@ for n in range(t.size-1):
             T[i,j,n+1] = dt*a*((T[i-1,j,n]-2.*T[i,j,n]+T[i+1,j,n])/dx2+(T[i,j-1,n]-2.*T[i,j,n]+T[i,j+1,n])/dy2)+T[i,j,n]
 
 
-# In[49]:
+# In[101]:
 
 
 #Adicionar subplot
@@ -888,7 +1144,7 @@ for i, n in enumerate(T[:,:,::25].T):
 plt.show()
 
 
-# In[50]:
+# In[102]:
 
 
 plt.plot(t, T[5,5,:])
@@ -898,10 +1154,10 @@ plt.ylabel('T')
 plt.show()
 
 
-# In[51]:
+# In[103]:
 
 
-del T, x, y, t, a, dx2, dy2, dt, i, n
+del T, x, y, t, a, dx2, dy2, dt, i, n, ax, fig, j
 
 
 # 3. **Condução e difusão transiente unidimensional**. Resolver a EDP:
@@ -917,7 +1173,7 @@ del T, x, y, t, a, dx2, dy2, dt, i, n
 #     T(x,0) =  1 - ( 10 x - 1 )^2 \quad \text{ se $0 \leq x \leq 0,2$}, \quad \text{ senão } T(x,0) = 0
 # \end{equation}
 # 
-# Discretizando com a derivada segunda numa representação por diferença central e a derivada primeira com diferença ascendente:
+# Discretizando com as derivadas espaciais numa representação por diferença central e a derivada temporal com diferença ascendente:
 # \begin{equation}
 # \dfrac{T_{i,k+1}-T_{i,k}}{\Delta t}=\alpha \dfrac{T_{i-1,k}-2T_{i,k}+T_{i+1,k}}{(\Delta x)^2} -u\dfrac{T_{i+1,k}-T_{i-1,k}}{2\Delta x}
 # \end{equation}
@@ -959,9 +1215,10 @@ del T, x, y, t, a, dx2, dy2, dt, i, n
 # \begin{equation}
 #    T_{k+1} = T_{k} + \underbrace{ \Delta t \left( \alpha D_x - u D_x^2 \right)}_{A} T_{k},
 # \end{equation}
+# 
 # onde $D_x$ e $D_x^2$ são os operadores diferenciais de primeira e segunda ordem, respectivamente.
 
-# In[165]:
+# In[109]:
 
 
 x, Dx, Dx2 = dv.ordem2(1., n=101)
@@ -976,7 +1233,7 @@ for D in [Dx, Dx2]:
     D[-1,:] = 0.
 
 
-# In[166]:
+# In[110]:
 
 
 def convdiff(alpha, u):
@@ -993,7 +1250,7 @@ def convdiff(alpha, u):
     return A, T
 
 
-# In[167]:
+# In[111]:
 
 
 alpha, u, visu = 0.001, 0.08, 2000 #Parâmetro de visualização: a cada quantos passos de tempo se deve graficar os resultados
@@ -1012,7 +1269,7 @@ plt.show()
 
 # Mas o que acontece quando combinados diferentes valores para $\alpha$ e $u$?
 
-# In[168]:
+# In[112]:
 
 
 fig, ax = plt.subplots(nrows=3, ncols=3, sharex=True, sharey=True)
@@ -1029,73 +1286,73 @@ for i, alpha in enumerate([0., 0.0005, 0.001]):
 plt.show()
 
 
-# In[169]:
+# In[114]:
 
 
-del x, t, dt, D, Dx, Dx2, visu, alpha, u, A, T
+del A,D,Dx,Dx2,T,alpha,ax,dt,fig,i,j,n,t,u,visu,x
 plt.close('all')
 
 
 # ### Vibrações Mecânicas
 # 
+# <img src="molas.png" width="480">
 # 
+# 1. O movimento das massas esquematizadas na figura acima é governado pelo seguinte sistema de equações:
 # 
 # \begin{equation}
 # \underbrace{
 # \begin{bmatrix}
-# m_1 & 0 \\
-#   0 & m_2
+# m_0 & 0 \\
+#   0 & m_1
 # \end{bmatrix}
 # }_{M}
 # \begin{bmatrix} \ddot x_0 \\ \ddot x_1 \end{bmatrix} +
 # \underbrace{
 # \begin{bmatrix}
-# c_1 + c_2 & -c_2 \\
-# -c_2 & c_2 + c_3
+# c_0 + c_1 & -c_1 \\
+# -c_1 & c_1 + c_2
 # \end{bmatrix}
 # }_{C}
 # \begin{bmatrix} \dot x_0 \\ \dot x_1 \end{bmatrix} +
 # \underbrace{
 # \begin{bmatrix}
-# k_1 + k_2 & -k_2 \\
-# -k_2 & k_2 + k_3
+# k_0 + k_1 & -k_1 \\
+# -k_1 & k_1 + k_2
 # \end{bmatrix}
 # }_{K}
 # \begin{bmatrix} x_0 \\ x_1 \end{bmatrix} = 0
 # \end{equation}
 # 
-# \begin{equation}
-#     x = a e^{iwt}
-# \end{equation}
+#     No caso particular em que o coeficiente de amortecimento é nulo $c=0$, a resposta esperada do sistema pode ser escrita como $x = a e^{iwt}$, que substituida no sistema acima resulta em:
 # 
 # \begin{equation}
-#     \left[ \underbrace{M^{-1}K}_{A} - w^2I \right] x = 0
+#     \left[ \underbrace{M^{-1}K}_{A} - \omega^2I \right] x = 0
 # \end{equation}
+# 
+#     Sabendo que as frequencias $\omega$ e modos de vibração $a$ catacterísticos do sistema podem ser obtidos respectivamente como os autovalores e autovetores da matriz $A$, grafique a resposta em função do tempo considerando $m_0=m_1=1$ e $k_0=k_1=k_2=1$.
 
-# In[150]:
+# In[115]:
 
 
-m1, m2 = 1., 1.
-k1, k2, k3 = 1., 1., 1.
+m0, m1 = 1., 1.
+k0, k1, k2 = 1., 1., 1.
 
-M = np.array([[m1, 0.],
-              [0., m2]])
-K = np.array([[k1+k2, -k2  ],
-              [-k2  , k2+k3]])
+M = np.array([[m0, 0.],
+              [0., m1]])
+K = np.array([[k0+k1, -k1  ],
+              [-k1  , k1+k2]])
 
 from scipy import linalg
 A = sp.linalg.inv(M).dot(K)
 
-e_vals, e_vecs = LA.eig(A)
+e_vals, e_vecs = sp.linalg.eig(A)
 
 
-# In[151]:
+# In[116]:
 
 
 fig, ax = plt.subplots(nrows=1, ncols=e_vals.size, sharex=True, sharey=True)
-
 t = np.linspace(0., 4*np.pi, num=200, endpoint=True)
-
 for i, w in enumerate(e_vals):
     for j, a in enumerate(e_vecs[i]):
         offset = -(-1)**j #um deslocamento, apenas para melhor visualização
@@ -1107,9 +1364,16 @@ for i, w in enumerate(e_vals):
 plt.show()
 
 
+# In[117]:
+
+
+del A,K,M,a,ax,e_vals,e_vecs,fig,i,j,k0,k1,k2,m0,m1,offset,t,w
+plt.close('all')
+
+
 # ### Engenharia Econômica
 
-# ### Eletronica
+# ### Eletrônica
 # 
 # 
 # 1. Determine as correntes elétricas $I_1$, $I_2$ e $I_3$ que percorrem o circuito abaixo, admitindo que: $R_1=10 \Omega$, $R_2=22\Omega$, $R_3=47\Omega$, $R_4=22\Omega$, $R_5=10\Omega$ e $V_1=V_2=9 V$.
@@ -1129,7 +1393,7 @@ plt.show()
 # R_5 I_2 + R_3 I_3 + R_2 I_2 = V_2
 # \end{equation}
 
-# In[57]:
+# In[118]:
 
 
 r1, r2, r3, r4, r5 = 10., 22., 47., 22., 10.
@@ -1142,7 +1406,7 @@ A = [[1., 1., -1.],
 B = [0., v1, v2]
 
 
-# In[58]:
+# In[119]:
 
 
 I = np.linalg.solve(A,B)
@@ -1151,9 +1415,18 @@ for i, ival in enumerate(I):
     print('I{} = {}'.format(i, ival))
 
 
+# Material complementar:
+# * [Kirchhoff's circuit laws](https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws)
+
+# In[120]:
+
+
+del A,B,I,i,ival,r1,r2,r3,r4,r5,v1,v2
+
+
 # ### Resistência dos Materiais
 # 
-# 1. Determine os esforços am cada uma das barras que compôem a treliça abaixo. Para cada um dos nós observa-se que que $\sum F_x = 0$ e $\sum F_y = 0$ dem ser satisfeitas, resultando em 14 equações, e um sistema matricial $14 \times 14$ a ser resolvido. Como incógnitas, tem-se a força resultante nas 11 barras $F_{ij}$, além da força nos apoios: $F_{1x}$, $F_{1y}$ e $F_{4y}$. Considera o carregamento como $F_5 = F_6 = 1kN$ e $F_7 = 2kN$.
+# 1. Determine os esforços am cada uma das barras que compôem a treliça abaixo. Para cada um dos nós observa-se que $\sum F_x = 0$ e $\sum F_y = 0$ devem ser satisfeitas, resultando em 14 equações e um sistema matricial $14 \times 14$ a ser resolvido. Como incógnitas, tem-se a força resultante nas 11 barras $F_{ij}$, além da força nos apoios: $F_{1x}$, $F_{1y}$ e $F_{4y}$. Considerar o carregamento como $F_5 = F_6 = 1kN$ e $F_7 = 2kN$.
 # 
 # <img src="trelica.png" width="640">
 
@@ -1200,7 +1473,7 @@ for i, ival in enumerate(I):
 # \end{split}
 # \end{equation}
 
-# In[59]:
+# In[121]:
 
 
 angle = np.deg2rad(30.)
@@ -1225,7 +1498,7 @@ A = np.array([[1.,0.,0.,-cos,-1.,0.,0.,0.,0.,0.,0.,0.,0.,0.],
 B = np.array([0.,0.,0.,0.,0.,0.,0.,0.,0.,F5,0.,F6,0.,F7])
 
 
-# In[73]:
+# In[122]:
 
 
 I = np.linalg.solve(A,B)
@@ -1234,33 +1507,34 @@ for i, key in enumerate(['F1x','F1y','F4y','F15','F12','F23','F25','F27','F34','
     print('{0:2d}: {1} = {2:5.2f}kN'.format(i,key,I[i]))
 
 
+# In[123]:
+
+
+del A,B,F5,F6,F7,I,angle,cos,i,key,sin
+
+
 # ## Exercícios Propostos
 
-# ### Ciência dos Materiais
+# 1. **Ciência dos Materiais - Difusão combinada de calor e massa em um caso bidimensional**.
 # 
-# 1. **Difusão combinada de massa e calor em um caso bidimensional**.
-# 
+#     Uma chapa de aço, de espessura $L$, inicialmente na temperatura $T_i$, entra em um forno para tratamento térmico. Ao contato com a atmosfera aquecida e rica em cardono dentro do forno, os contornos da peça atingem temperatura e concentração de $T_p$ e $c_p$, respectivamente. Sabendo que as equações unidimensionais para a difusão de calor e de concentração de carbono são escritas em sua forma adimensional como:
 # \begin{equation}
-# \alpha \left( \dfrac{\partial ^2 T}{\partial x^2} + \dfrac{\partial ^2 T}{\partial y^2} \right) =\dfrac{\partial T}{\partial t}
+#     \dfrac{\partial ^2 \Theta}{\partial X^2} = \dfrac{\partial \Theta}{\partial \tau},
 # \end{equation}
-# 
 # \begin{equation}
-# \alpha \left( \dfrac{\partial ^2 T}{\partial x^2} + \dfrac{\partial ^2 T}{\partial y^2} \right) =\dfrac{\partial T}{\partial t}
+#     \dfrac{\partial }{\partial X} \left( \dfrac{1}{Le(\Theta)} \dfrac{\partial C}{\partial X} \right)  = \dfrac{\partial C}{\partial \tau},
 # \end{equation}
+# onde $\Theta(X, \tau) = \dfrac{T(x,t) - T_i}{T_p - T_i}$ representa a temperatura adimensional, $X = \dfrac{x}{L}$ o sistema de coordenadas, $\tau = \dfrac{\alpha t}{L^2}$ o tempo, $C(X, \tau) = \dfrac{c(x,t) - c_i}{c_p - c_i}$ a concentração de carbono e $Le = \dfrac{\alpha}{D}$ o número de Lewis. Determine o tempo adimensional necessário para que no centro da peça $C(X/2)=75\%$. Grafique a evolução da temperatura e da concentração no centro da peça em função do tempo. Em situações reais, a difusão mássica é muito menor que a diffusão térmica, de modo que o número de Lewis seja da ordem de $10^6$, desta maneira, para fins ditáticos, assuma que $Le = \dfrac{2}{1+\Theta^{3/2}}$.
 
-# In[180]:
+# 2. **Visualizações animadas**. Pode-se tirar proveito de belas animações interativas produzidas pela Matplotlib. Para tanto, dois exercícios resolvidos podem ser revisitados:
+# 
+#     a. Primeiramente, o exercício 3.3.1 de vibrações mecânicas, produzindo uma animação para a variação de posição das duas massas com o tempo;
+# 
+#     b. O problema 3.2.2 de fenômenos de transporte, gerando uma uma animação para a evolução temporal da temperatura na placa.
+# 
+#     Material complementar:
+#     * [Embedding Matplotlib Animations in Jupyter as Interactive JavaScript Widgets](http://louistiao.me/posts/notebooks/embedding-matplotlib-animations-in-jupyter-as-interactive-javascript-widgets/)
 
+# 3. **Resistência dos Materiais**. De volta ao exercício resolvido 3.6.1, encontre um maneira de produzir as matrizes `A` e `B` automaticamente, sendo fornecidos ao código apenas a posição espacial dos nós da treliça, e as forças de ligação entre eles. Compare com a resposta obtida anteriormente para verificação do novo código. Grafique os resultados.
 
-prop = pd.DataFrame({'Soluto': pd.Categorical(["Carbono", "Carbono", "Ferro", "Ferro", "Níquel", "Manganês", "Zinco", "Cobre", "Cobre", "Prata", "Prata", "Carbono"]),
-                     'Solvente': pd.Categorical(["Ferro CFC", "Ferro CCC", "Ferro CFC", "Ferro CCC", "Ferro CFC", "Ferro CFC", "Cobre", "Alumínio", "Cobre", "Prata (Cristal)", "Prata (Cont.Grão)", "Titânio"]),
-                     'alpha-500': [5e-15, 1e-12, 2e-23, 1e-20, 1e-23, 3e-24, 4e-18, 4e-14, 1e-18, 1e-17, 1e-11, 3e-16],
-                     'alpha-1000': [3e-11, 2e-9, 2e-16, 3e-14, 2e-16, 1e-16, 5e-13, 1e-10, 2e-11, 1e-12, np.NaN, 2e-11]
-                    })
-prop
-
-
-# In[ ]:
-
-
-
-
+# 4. **Fenômenos de Transporte**. Empregar o conceito de operador diferencial estabelecido pelo módulo `diferencial.py` ao exercício resolvido 3.2.2. Comparar com a resposta obtida anteriormente para verificação do novo código.
