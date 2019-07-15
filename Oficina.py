@@ -4,7 +4,7 @@
 # <img src="JEAP.jpg" width="720">
 
 # <h1>Sumário<span class="tocSkip"></span></h1>
-# <div class="toc"><ul class="toc-item"><li><span><a href="#Introdução" data-toc-modified-id="Introdução-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introdução</a></span><ul class="toc-item"><li><span><a href="#Sobre-o-autor" data-toc-modified-id="Sobre-o-autor-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Sobre o autor</a></span></li><li><span><a href="#Sobre-o-material" data-toc-modified-id="Sobre-o-material-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Sobre o material</a></span></li><li><span><a href="#Porque-Python?" data-toc-modified-id="Porque-Python?-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Porque Python?</a></span></li><li><span><a href="#Porque-Jupyter-Notebooks?" data-toc-modified-id="Porque-Jupyter-Notebooks?-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>Porque Jupyter Notebooks?</a></span></li><li><span><a href="#Material-Complementar" data-toc-modified-id="Material-Complementar-1.5"><span class="toc-item-num">1.5&nbsp;&nbsp;</span>Material Complementar</a></span></li></ul></li><li><span><a href="#Revisão" data-toc-modified-id="Revisão-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Revisão</a></span><ul class="toc-item"><li><span><a href="#Listas" data-toc-modified-id="Listas-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Listas</a></span></li><li><span><a href="#Dicionários" data-toc-modified-id="Dicionários-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Dicionários</a></span></li><li><span><a href="#Módulos" data-toc-modified-id="Módulos-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Módulos</a></span></li><li><span><a href="#Principais-Bibliotecas" data-toc-modified-id="Principais-Bibliotecas-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Principais Bibliotecas</a></span></li><li><span><a href="#Fortran-vs.-Python" data-toc-modified-id="Fortran-vs.-Python-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Fortran vs. Python</a></span></li></ul></li><li><span><a href="#Exercícios-Resolvidos" data-toc-modified-id="Exercícios-Resolvidos-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Exercícios Resolvidos</a></span><ul class="toc-item"><li><span><a href="#Métodos-numéricos" data-toc-modified-id="Métodos-numéricos-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Métodos numéricos</a></span></li><li><span><a href="#Fenômenos-de-Transporte" data-toc-modified-id="Fenômenos-de-Transporte-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Fenômenos de Transporte</a></span></li><li><span><a href="#Vibrações-Mecânicas" data-toc-modified-id="Vibrações-Mecânicas-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Vibrações Mecânicas</a></span></li><li><span><a href="#Engenharia-Econômica" data-toc-modified-id="Engenharia-Econômica-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>Engenharia Econômica</a></span></li><li><span><a href="#Eletrônica" data-toc-modified-id="Eletrônica-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>Eletrônica</a></span></li><li><span><a href="#Resistência-dos-Materiais" data-toc-modified-id="Resistência-dos-Materiais-3.6"><span class="toc-item-num">3.6&nbsp;&nbsp;</span>Resistência dos Materiais</a></span></li></ul></li><li><span><a href="#Exercícios-Propostos" data-toc-modified-id="Exercícios-Propostos-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Exercícios Propostos</a></span></li></ul></div>
+# <div class="toc"><ul class="toc-item"><li><span><a href="#Introdução" data-toc-modified-id="Introdução-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Introdução</a></span><ul class="toc-item"><li><span><a href="#Sobre-o-autor" data-toc-modified-id="Sobre-o-autor-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Sobre o autor</a></span></li><li><span><a href="#Sobre-o-material" data-toc-modified-id="Sobre-o-material-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Sobre o material</a></span></li><li><span><a href="#Porque-Python?" data-toc-modified-id="Porque-Python?-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Porque Python?</a></span></li><li><span><a href="#Porque-Jupyter-Notebooks?" data-toc-modified-id="Porque-Jupyter-Notebooks?-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>Porque Jupyter Notebooks?</a></span><ul class="toc-item"><li><span><a href="#Como-acessar" data-toc-modified-id="Como-acessar-1.4.1"><span class="toc-item-num">1.4.1&nbsp;&nbsp;</span>Como acessar</a></span></li></ul></li><li><span><a href="#Material-Complementar" data-toc-modified-id="Material-Complementar-1.5"><span class="toc-item-num">1.5&nbsp;&nbsp;</span>Material Complementar</a></span></li></ul></li><li><span><a href="#Revisão" data-toc-modified-id="Revisão-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Revisão</a></span><ul class="toc-item"><li><span><a href="#Listas" data-toc-modified-id="Listas-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Listas</a></span></li><li><span><a href="#Dicionários" data-toc-modified-id="Dicionários-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Dicionários</a></span></li><li><span><a href="#Módulos" data-toc-modified-id="Módulos-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Módulos</a></span></li><li><span><a href="#Principais-Bibliotecas" data-toc-modified-id="Principais-Bibliotecas-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Principais Bibliotecas</a></span></li><li><span><a href="#Fortran-vs.-Python" data-toc-modified-id="Fortran-vs.-Python-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Fortran vs. Python</a></span></li></ul></li><li><span><a href="#Exercícios-Resolvidos" data-toc-modified-id="Exercícios-Resolvidos-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Exercícios Resolvidos</a></span><ul class="toc-item"><li><span><a href="#Métodos-numéricos" data-toc-modified-id="Métodos-numéricos-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Métodos numéricos</a></span></li><li><span><a href="#Fenômenos-de-Transporte" data-toc-modified-id="Fenômenos-de-Transporte-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Fenômenos de Transporte</a></span></li><li><span><a href="#Vibrações-Mecânicas" data-toc-modified-id="Vibrações-Mecânicas-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>Vibrações Mecânicas</a></span></li><li><span><a href="#Eletrônica" data-toc-modified-id="Eletrônica-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>Eletrônica</a></span></li><li><span><a href="#Resistência-dos-Materiais" data-toc-modified-id="Resistência-dos-Materiais-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>Resistência dos Materiais</a></span></li></ul></li><li><span><a href="#Exercícios-Propostos" data-toc-modified-id="Exercícios-Propostos-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Exercícios Propostos</a></span></li></ul></div>
 
 # ## Introdução
 # 
@@ -32,13 +32,26 @@
 
 # ### Porque Jupyter Notebooks?
 # 
+# ![jupyter](https://jupyter.org/assets/main-logo.svg  "jupyter")
+# 
 # * Ferramenta web interativa, grátis, de código aberto;
 # * Exploração de dados. Permite executar o código, ver o que acontece, modificar e repetir, onde o cientista tem uma *"conversa"* com os dados disponíveis;
 # * Útil para a criação de tutoriais interativos;
 # * Ele fala a nossa língua. Disponível para várias liguagens de programação, como Python, Julia, R e Fortran;
-# * É possível combinar o código com células `Markdown`, para renderizar equações e tabelas, inserir figuras e explicações para o código;
+# * É possível combinar o código com células `Markdown`, para renderizar equações e tabelas, inserir figuras e explicações sobre o código;
 # * Facilmente extensível para apresentações de slides.
+# * Disponível em [jupyter.org](https://jupyter.org)
+
+# #### Como acessar
+# ![anaconda](https://www.anaconda.com/wp-content/uploads/2018/06/cropped-Anaconda_horizontal_RGB-1-600x102.png "anaconda")
 # 
+# 1. Instalação por meio do pacote [Anaconda](https://www.anaconda.com/);
+# 
+# ![colab](https://colab.research.google.com/img/colab_favicon.ico "colab")
+# 
+# 2. Ferramenta colaborativa na núvem: [Google colab](https://colab.research.google.com);
+# 
+# 3. 
 
 # Material complementar:
 # * [Markdown quick reference](https://en.support.wordpress.com/markdown-quick-reference/)
@@ -69,7 +82,7 @@ print("Olá mundo")
 # Isso também é um comentário
 
 
-# In[2]:
+# In[97]:
 
 
 # Declarando variáveis
@@ -195,6 +208,13 @@ for f in fruits:
 
 for i, f in enumerate(fruits):
     print(i,f)
+
+
+# In[98]:
+
+
+for i, var in enumerate([i, f, g, s, c]):
+    print(i, var, type(var))
 
 
 # * Usando listas como pilha:
@@ -506,7 +526,7 @@ for f in [np.zeros, np.zeros_like, np.ones, np.linspace]:
 # O pandas é um pacote Python que fornece **estruturas de dados rápidas, flexíveis e expressivas**, projetadas para tornar o trabalho com dados “relacionais” ou “rotulados” fáceis e intuitivos. O objetivo é ser o alicerce fundamental de alto nível para a análise prática de dados do mundo real em Python. Além disso, tem o objetivo mais amplo de se tornar a mais poderosa e flexível ferramenta de análise / manipulação de dados de código aberto disponível em qualquer linguagem.
 # 
 # Pandas é bem adequado para muitos tipos diferentes de dados:
-# * Dados tabulares com colunas de tipos heterogêneos, como em uma **tabela SQL ou planilha do Excel**;
+# * Dados tabulares com colunas de tipos heterogêneos, como em uma **tabela SQL, arquivo `.csv` ou planilha do Excel**;
 # * Dados de **séries temporais** ordenados e não ordenados (não necessariamente de frequência fixa);
 # * Dados de matriz arbitrária (homogeneamente digitados ou heterogêneos) com rótulos de linha e coluna;
 # * Qualquer outra forma de conjuntos de dados observacionais / estatísticos. Os dados realmente não precisam ser rotulados para serem colocados em uma estrutura de dados de pandas.
@@ -1205,7 +1225,6 @@ del T, x, y, t, a, dx2, dy2, dt, i, n, ax, fig, j
 # \\
 # \mbox{com $2\leq i \leq n -3$,}
 # \end{split}
-# \label{eq.dxx_matrix}
 # \end{equation}
 
 # ou simplesmente:
@@ -1367,8 +1386,6 @@ plt.show()
 del A,K,M,a,ax,e_vals,e_vecs,fig,i,j,k0,k1,k2,m0,m1,offset,t,w
 plt.close('all')
 
-
-# ### Engenharia Econômica
 
 # ### Eletrônica
 # 
@@ -1534,12 +1551,6 @@ del A,B,F5,F6,F7,I,angle,cos,i,key,sin
 #     Material complementar:
 #     * [Embedding Matplotlib Animations in Jupyter as Interactive JavaScript Widgets](http://louistiao.me/posts/notebooks/embedding-matplotlib-animations-in-jupyter-as-interactive-javascript-widgets/)
 
-# 4. **Resistência dos Materiais**. De volta ao exercício resolvido 3.6.1, encontre um maneira de produzir as matrizes `A` e `B` automaticamente, sendo fornecidos ao código apenas a posição espacial dos nós da treliça, e as forças de ligação entre eles. Compare com a resposta obtida anteriormente para verificação do novo código. Grafique os resultados.
+# 4. **Resistência dos Materiais**. De volta ao exercício resolvido 3.5.1, encontre um maneira de produzir as matrizes `A` e `B` automaticamente, sendo fornecidos ao código apenas a posição espacial dos nós da treliça, e as forças de ligação entre eles. Compare com a resposta obtida anteriormente para verificação do novo código. Grafique os resultados.
 
 # 5. **Fenômenos de Transporte**. Empregar o conceito de operador diferencial estabelecido pelo módulo `diferencial.py` ao exercício resolvido 3.2.2. Comparar com a resposta obtida anteriormente para verificação do novo código.
-
-# In[ ]:
-
-
-
-
