@@ -25,25 +25,27 @@
 # * Finalmente, **a prática leva a perfeição**, há uma série de exercícios propostos ao final do material, visando a fixação do conhecimento.
 
 # ### Porque Python?
-# 
-# 1. Simples e fácil de aprender
-# 2. Portátil e Extensível
-# 3. Desenvolvimento Web
-# 4. Inteligência Artificial
-# 5. Computação Gráfica
-# 6. Enquadramento de Testes
-# 7. Big Data
-# 8. Scripting e Automação
-# 9. Ciência de Dados
-# 10. Popularidade
+
+# <img src="notebook.png">
 
 # * [10 motivos para você aprender Python](https://www.hostgator.com.br/blog/10-motivos-para-voce-aprender-python/)
 
 # ### Porque Jupyter Notebooks?
 # 
+# * Ferramenta web interativa, grátis, de código aberto;
+# * Exploração de dados. Permite executar o código, ver o que acontece, modificar e repetir, onde o cientista tem uma *"conversa"* com os dados disponíveis;
+# * Útil para a criação de tutoriais interativos;
+# * Ele fala a nossa língua. Disponível para várias liguagens de programação, como Python, Julia, R e Fortran;
+# * É possível combinar o código com células `Markdown`, para renderizar equações e tabelas, inserir figuras e explicações para o código;
+# * Facilmente extensível para apresentações de slides.
+# 
+
+# Material complementar:
 # * [Markdown quick reference](https://en.support.wordpress.com/markdown-quick-reference/)
 # * [Jupyter tools to increase productivity](https://towardsdatascience.com/jupyter-tools-to-increase-productivity-7b3c6b90be09)
 # * [LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
+# * [Why Jupyter is data scientists’ computational notebook of choice](https://www.nature.com/articles/d41586-018-07196-1)
+# * [5 reasons why jupyter notebooks suck](https://towardsdatascience.com/5-reasons-why-jupyter-notebooks-suck-4dc201e27086)
 
 # ### Material Complementar
 # 
@@ -55,7 +57,7 @@
 
 # ## Revisão
 
-# In[ ]:
+# In[1]:
 
 
 '''
@@ -67,7 +69,7 @@ print("Olá mundo")
 # Isso também é um comentário
 
 
-# In[ ]:
+# In[2]:
 
 
 # Declarando variáveis
@@ -78,21 +80,21 @@ s = 'abcdef' #string
 c = 5.0 + 6j #complexo
 
 
-# In[ ]:
+# In[3]:
 
 
 i = i + 1    #acumulador 
 i
 
 
-# In[ ]:
+# In[4]:
 
 
 i += 1       #forma alternativa para acumulador
 i
 
 
-# In[ ]:
+# In[5]:
 
 
 #laço de zero a 4
@@ -100,7 +102,7 @@ for i in range(5):
     print(i)
 
 
-# In[ ]:
+# In[6]:
 
 
 #teste lógico
@@ -118,77 +120,77 @@ else:
 # 
 # * Um exemplo dos principais métodos:
 
-# In[ ]:
+# In[7]:
 
 
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 
 
-# In[ ]:
+# In[8]:
 
 
 fruits[2]
 
 
-# In[ ]:
+# In[9]:
 
 
 fruits.count('apple')
 
 
-# In[ ]:
+# In[10]:
 
 
 fruits.count('tangerine')
 
 
-# In[ ]:
+# In[11]:
 
 
 fruits.index('banana')
 
 
-# In[ ]:
+# In[12]:
 
 
 fruits.index('banana', 4)  # Find next banana starting a position 4
 
 
-# In[ ]:
+# In[13]:
 
 
 fruits.reverse()
 fruits
 
 
-# In[ ]:
+# In[14]:
 
 
 fruits.append('grape')
 fruits
 
 
-# In[ ]:
+# In[15]:
 
 
 fruits.sort()
 fruits
 
 
-# In[ ]:
+# In[16]:
 
 
 fruits.pop()
 
 
-# In[ ]:
+# In[17]:
 
 
 for f in fruits:
     print(f)
 
 
-# In[ ]:
+# In[18]:
 
 
 for i, f in enumerate(fruits):
@@ -198,7 +200,7 @@ for i, f in enumerate(fruits):
 # * Usando listas como pilha:
 # Os métodos de lista facilitam muito o uso de uma lista como uma pilha (*Stacks*), onde o último elemento adicionado é o primeiro elemento recuperado (*“last-in, first-out”*). Para adicionar um item ao topo da pilha, use `append()`. Para recuperar um item do topo da pilha, use `pop()` sem um índice explícito. Por exemplo:
 
-# In[ ]:
+# In[19]:
 
 
 stack = [3, 4, 5]
@@ -207,25 +209,25 @@ stack.append(7)
 stack
 
 
-# In[ ]:
+# In[20]:
 
 
 stack.pop()
 
 
-# In[ ]:
+# In[21]:
 
 
 stack.pop()
 
 
-# In[ ]:
+# In[22]:
 
 
 stack.pop()
 
 
-# In[ ]:
+# In[23]:
 
 
 stack
@@ -241,7 +243,7 @@ stack
 # 
 # A execução de `list()` em um dicionário retorna uma lista de todas as chaves usadas no dicionário, em ordem de inserção (se você quiser classificá-las, use apenas `sorted()`). Para verificar se uma única chave está no dicionário, use a palavra-chave `in`.
 
-# In[ ]:
+# In[24]:
 
 
 tel = {'jack': 4098, 'sape': 4139}
@@ -249,13 +251,13 @@ tel['guido'] = 4127
 tel
 
 
-# In[ ]:
+# In[25]:
 
 
 tel['jack']
 
 
-# In[ ]:
+# In[26]:
 
 
 del tel['sape']
@@ -263,31 +265,31 @@ tel['irv'] = 4127
 tel
 
 
-# In[ ]:
+# In[27]:
 
 
 list(tel)
 
 
-# In[ ]:
+# In[28]:
 
 
 sorted(tel)
 
 
-# In[ ]:
+# In[29]:
 
 
 'guido' in tel
 
 
-# In[ ]:
+# In[30]:
 
 
 'jack' not in tel
 
 
-# In[ ]:
+# In[31]:
 
 
 for key, t in tel.items():
@@ -323,31 +325,31 @@ for key, t in tel.items():
 #     return result
 # ```
 
-# In[ ]:
+# In[32]:
 
 
 import fibo
 
 
-# In[ ]:
+# In[33]:
 
 
 fibo.fib(1000)
 
 
-# In[ ]:
+# In[34]:
 
 
 fibo.fib2(100)
 
 
-# In[ ]:
+# In[35]:
 
 
 fibo.__name__
 
 
-# In[ ]:
+# In[36]:
 
 
 dir(fibo)
@@ -361,7 +363,7 @@ dir(fibo)
 # * [Dictionaries in Python](https://realpython.com/python-dicts/)
 # * [Classes](https://docs.python.org/2/tutorial/classes.html)
 
-# In[ ]:
+# In[37]:
 
 
 del c, f, fruits, g, i, key, s, stack, t, tel
@@ -400,7 +402,7 @@ del c, f, fruits, g, i, key, s, stack, t, tel
 #     * Processamento de imagem multidimensional
 #     * I/O de arquivos
 
-# In[ ]:
+# In[38]:
 
 
 import scipy as sp
@@ -424,67 +426,67 @@ import scipy.sparse as sps
 # 
 # Além de seus usos científicos óbvios, o NumPy também pode ser usado como um contêiner multidimensional eficiente de dados genéricos. Tipos de dados arbitrários podem ser definidos. Isso permite que o NumPy integre-se de forma fácil e rápida a uma ampla variedade de bancos de dados.
 
-# In[ ]:
+# In[39]:
 
 
 import numpy as np # Importando a biblioteca numpy e definindo-a com o codnome de np
 
 
-# In[ ]:
+# In[40]:
 
 
 print(np.arange.__doc__) # É sempre possível checar a documentação de uma dada função
 
 
-# In[ ]:
+# In[41]:
 
 
 a = np.arange(15).reshape(3, 5) # Criando um arranjo com 15 elementos e o redimensionando para o formato 3x5
 
 
-# In[ ]:
+# In[42]:
 
 
 a # Escrevendo a
 
 
-# In[ ]:
+# In[43]:
 
 
 a.shape # Verificando as dimensões do arranjo
 
 
-# In[ ]:
+# In[44]:
 
 
 a.ndim # O número de dimensões
 
 
-# In[ ]:
+# In[45]:
 
 
 a.dtype.name # Classificação quando ao tipo dos elementos
 
 
-# In[ ]:
+# In[46]:
 
 
 a.itemsize # Tamanho em bytes de cada elemento
 
 
-# In[ ]:
+# In[47]:
 
 
 a.size # Número total de elementos no arranjo
 
 
-# In[ ]:
+# In[48]:
 
 
 type(a)
 
 
-# In[ ]:
+# In[49]:
 
 
 # outras funções que merecem destaque:
@@ -509,13 +511,13 @@ for f in [np.zeros, np.zeros_like, np.ones, np.linspace]:
 # * Dados de matriz arbitrária (homogeneamente digitados ou heterogêneos) com rótulos de linha e coluna;
 # * Qualquer outra forma de conjuntos de dados observacionais / estatísticos. Os dados realmente não precisam ser rotulados para serem colocados em uma estrutura de dados de pandas.
 
-# In[ ]:
+# In[50]:
 
 
 import pandas as pd
 
 
-# In[ ]:
+# In[51]:
 
 
 df2 = pd.DataFrame({'A': 1.,
@@ -526,13 +528,13 @@ df2 = pd.DataFrame({'A': 1.,
                     'F': 'foo'})
 
 
-# In[ ]:
+# In[52]:
 
 
 df2
 
 
-# In[ ]:
+# In[53]:
 
 
 #função bônus:
@@ -549,14 +551,14 @@ print(df2.to_latex())
 # 
 # SymPy é uma biblioteca Python para **matemática simbólica**. O objetivo é tornar-se um sistema de álgebra computacional (CAS) completo, mantendo o código o mais simples possível para ser compreensível e facilmente extensível. SymPy é escrito inteiramente em Python.
 
-# In[ ]:
+# In[54]:
 
 
 import sympy as sm
 sm.init_printing() #Para escrever equações na tela
 
 
-# In[ ]:
+# In[55]:
 
 
 x, t = sm.symbols('x t') # Criando símbolo
@@ -564,7 +566,7 @@ x, t = sm.symbols('x t') # Criando símbolo
 
 # calcular $\int (e^x \sin(x) + e^x \cos(x)) dx$
 
-# In[ ]:
+# In[56]:
 
 
 sm.integrate(sm.exp(x)*sm.sin(x) + sm.exp(x)*sm.cos(x), x)
@@ -572,7 +574,7 @@ sm.integrate(sm.exp(x)*sm.sin(x) + sm.exp(x)*sm.cos(x), x)
 
 # calcular a derivada de $\sin(x)e^x$
 
-# In[ ]:
+# In[57]:
 
 
 sm.diff(sm.sin(x)*sm.exp(x), x)
@@ -581,7 +583,7 @@ sm.diff(sm.sin(x)*sm.exp(x), x)
 # calcular $\int_{-\infty}^{\infty} \sin(x^2)$
 # 
 
-# In[ ]:
+# In[58]:
 
 
 sm.integrate(sm.sin(x**2), (x, -sm.oo, sm.oo))
@@ -589,7 +591,7 @@ sm.integrate(sm.sin(x**2), (x, -sm.oo, sm.oo))
 
 # calcular $\lim_{x \to 0} \dfrac{\sin(x)}{x}$
 
-# In[ ]:
+# In[59]:
 
 
 sm.limit(sm.sin(x)/x, x, 0)
@@ -597,7 +599,7 @@ sm.limit(sm.sin(x)/x, x, 0)
 
 # resolver $x^2 - 2 = 0$
 
-# In[ ]:
+# In[60]:
 
 
 sm.solve(x**2 - 2, x)
@@ -605,7 +607,7 @@ sm.solve(x**2 - 2, x)
 
 # resolver a equação diferencial $y'' - y = e^t$
 
-# In[ ]:
+# In[61]:
 
 
 y = sm.Function('y')
@@ -613,7 +615,7 @@ eq1 = sm.dsolve(sm.Eq(y(t).diff(t, t) - y(t), sm.exp(t)), y(t))
 eq1
 
 
-# In[ ]:
+# In[62]:
 
 
 #Bônus
@@ -637,20 +639,20 @@ print(sm.latex(eq1))
 # * [Style sheets reference](https://matplotlib.org/3.1.0/gallery/style_sheets/style_sheets_reference.html)
 # * [Gallery](https://matplotlib.org/3.1.0/gallery/index.html)
 
-# In[ ]:
+# In[63]:
 
 
 import matplotlib.pyplot as plt
 
 
-# In[ ]:
+# In[64]:
 
 
 #Definindo um novo estilo para as figuras [opcional]
 plt.style.use(['seaborn-notebook']) 
 
 
-# In[ ]:
+# In[65]:
 
 
 x = np.arange(0, 5, 0.1)
@@ -670,7 +672,7 @@ plt.plot(x, y)
 # * [Tutorial](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb)
 # * [Gallery](https://bokeh.pydata.org/en/latest/docs/gallery.html)
 
-# In[ ]:
+# In[66]:
 
 
 import bokeh as bk
@@ -726,7 +728,7 @@ import bokeh as bk
 # 
 # e ainda processar o arquivo de saída `teste.csv` em outro software.
 
-# In[ ]:
+# In[67]:
 
 
 x = np.linspace(0., 2*np.pi, num=200, endpoint=True)
@@ -741,7 +743,7 @@ plt.legend()
 plt.show()
 
 
-# In[ ]:
+# In[68]:
 
 
 #Ou ainda:
@@ -752,7 +754,7 @@ plt.legend()
 plt.show()
 
 
-# In[ ]:
+# In[69]:
 
 
 del a, cosx, df2, eq1, sinx, t, x, y
@@ -791,7 +793,6 @@ plt.close('all')
 # \\
 # \mbox{com $2\leq i \leq n -3$ e $f_0 = f_n$}
 # \end{split}
-# \label{eq.dxx_matrix}
 # \end{equation}
 # 
 # \begin{equation}
@@ -823,14 +824,13 @@ plt.close('all')
 # \\
 # \mbox{com $2\leq i \leq n -3$ e $f_0 = f_n$}
 # \end{split}
-# \label{eq.dxx_matrix}
 # \end{equation}
 # 
 # \begin{equation}
 #     f'' = D_x^2 f
 # \end{equation}
 
-# In[ ]:
+# In[70]:
 
 
 x = np.linspace(0., 2.*np.pi, num=200, endpoint=False)
@@ -918,7 +918,7 @@ for D in [Dx, Dx2]:
 #     return x, Dx, Dx2
 # ```
 
-# In[ ]:
+# In[71]:
 
 
 #Agora pode-se importar o novo módulo com
@@ -1020,7 +1020,7 @@ plt.show()
 # \right)
 # \end{equation}
 
-# In[ ]:
+# In[72]:
 
 
 x = np.linspace(0., 2*np.pi, num=201, endpoint=True)
@@ -1035,7 +1035,7 @@ for i in [0, -1]: #Condições de contorno
 Ix.dot(f).sum() #Integral
 
 
-# In[ ]:
+# In[73]:
 
 
 #Ou alternativamente, utilizando o scipy:
@@ -1048,7 +1048,7 @@ sp.integrate.trapz(f,x)
 # * [Trapezoidal rule](https://en.wikipedia.org/wiki/Trapezoidal_rule)
 # * MOIN, Parviz. **Fundamentals of engineering numerical analysis**. Cambridge University Press, 2010.
 
-# In[ ]:
+# In[74]:
 
 
 del D, Dx, Dx2, Ix, dx, f, i, x
@@ -1061,13 +1061,13 @@ plt.close('all')
 
 # 1. **Radiação e convecção combinadas em transferência de calor permanente unidirecional**. A superfície interior de uma parede de espessura $L=0,25m$ é mantida a $21^oC$, enquanto a temperatura no meio externo é $T_\infty = 4^oC$. Considere que há troca de calor com a vizinhança $T_{viz} = 250 K$, o coeficiente de convecção é $h=23W/m^2$, a condutividade térmica do material que compõe a parede é $k=0,65 W/m \cdot ^oC$, a emissividade da superfície externa vale $\epsilon = 0,8$ e a constante de Stefan-Boltzmann $\sigma = 5,67 \times 10^{-8} [W/m^2 \cdot K^4]$. Determine a temperatura externa da parede $T_2$.
 # 
+# <img src="radiacao.png" width="220">
+# 
 # \begin{equation}
 #     k \left( \dfrac{T_1-T_2}{L} \right) = \epsilon \sigma \left( T_2^4 - T_{viz}^4 \right) + h \left( T_2 - T_\infty \right)
 # \end{equation}
-# 
-# 
 
-# In[ ]:
+# In[75]:
 
 
 k, t1, t2, l, epsi, sigma, tviz, too, h = sm.symbols("k t_1 t_2 L \epsilon \sigma t_{viz} t_\infty h")
@@ -1085,7 +1085,7 @@ for val in sol:
             print('T2 = {0:3.2f} graus celsius'.format(val-273.))  
 
 
-# In[ ]:
+# In[76]:
 
 
 del k, t1, t2, l, epsi, sigma, tviz, too, h, eq1, dic, sol, val
@@ -1102,7 +1102,7 @@ del k, t1, t2, l, epsi, sigma, tviz, too, h, eq1, dic, sol, val
 # \dfrac{T^{n+1}_{l,j}-T^{n}_{l,j}}{\Delta t}=\alpha \left[ \dfrac{T^{n}_{l-1,j}-2T^{n}_{l,j}+T^{n}_{l+1,j}}{(\Delta x)^2} +\dfrac{T^{n}_{l,j-1}-2T^{n}_{l,j}+T^{n}_{l,j+1}}{(\Delta y)^2}  \right]
 # \end{equation}
 
-# In[ ]:
+# In[77]:
 
 
 x = np.linspace(0., 50., num=11, endpoint=True)
@@ -1116,7 +1116,7 @@ T = np.zeros((x.size,y.size,t.size))
 T[0,:,:], T[-1,:,:], T[:,0,:], T[:,-1,:] = 60., 20., 0., 100.
 
 
-# In[ ]:
+# In[78]:
 
 
 dt = t[1]-t[0]
@@ -1128,7 +1128,7 @@ for n in range(t.size-1):
             T[i,j,n+1] = dt*a*((T[i-1,j,n]-2.*T[i,j,n]+T[i+1,j,n])/dx2+(T[i,j-1,n]-2.*T[i,j,n]+T[i,j+1,n])/dy2)+T[i,j,n]
 
 
-# In[ ]:
+# In[79]:
 
 
 #Adicionar subplot
@@ -1141,7 +1141,7 @@ for i, n in enumerate(T[:,:,::25].T):
 plt.show()
 
 
-# In[ ]:
+# In[80]:
 
 
 plt.plot(t, T[5,5,:])
@@ -1151,7 +1151,7 @@ plt.ylabel('T')
 plt.show()
 
 
-# In[ ]:
+# In[81]:
 
 
 del T, x, y, t, a, dx2, dy2, dt, i, n, ax, fig, j
@@ -1215,7 +1215,7 @@ del T, x, y, t, a, dx2, dy2, dt, i, n, ax, fig, j
 # 
 # onde $D_x$ e $D_x^2$ são os operadores diferenciais de primeira e segunda ordem, respectivamente.
 
-# In[ ]:
+# In[82]:
 
 
 x, Dx, Dx2 = dv.ordem2(1., n=101)
@@ -1230,7 +1230,7 @@ for D in [Dx, Dx2]:
     D[-1,:] = 0.
 
 
-# In[ ]:
+# In[83]:
 
 
 def convdiff(alpha, u):
@@ -1247,7 +1247,7 @@ def convdiff(alpha, u):
     return A, T
 
 
-# In[ ]:
+# In[84]:
 
 
 alpha, u, visu = 0.001, 0.08, 2000 #Parâmetro de visualização: a cada quantos passos de tempo se deve graficar os resultados
@@ -1266,7 +1266,7 @@ plt.show()
 
 # Mas o que acontece quando combinados diferentes valores para $\alpha$ e $u$?
 
-# In[ ]:
+# In[85]:
 
 
 fig, ax = plt.subplots(nrows=3, ncols=3, sharex=True, sharey=True)
@@ -1283,7 +1283,7 @@ for i, alpha in enumerate([0., 0.0005, 0.001]):
 plt.show()
 
 
-# In[ ]:
+# In[86]:
 
 
 del A,D,Dx,Dx2,T,alpha,ax,dt,fig,i,j,n,t,u,visu,x
@@ -1328,7 +1328,7 @@ plt.close('all')
 # 
 #     Sabendo que as frequencias $\omega$ e modos de vibração $a$ catacterísticos do sistema podem ser obtidos respectivamente como os autovalores e autovetores da matriz $A$, grafique a resposta em função do tempo considerando $m_0=m_1=1$ e $k_0=k_1=k_2=1$.
 
-# In[ ]:
+# In[87]:
 
 
 m0, m1 = 1., 1.
@@ -1345,7 +1345,7 @@ A = sp.linalg.inv(M).dot(K)
 e_vals, e_vecs = sp.linalg.eig(A)
 
 
-# In[ ]:
+# In[88]:
 
 
 fig, ax = plt.subplots(nrows=1, ncols=e_vals.size, sharex=True, sharey=True)
@@ -1361,7 +1361,7 @@ for i, w in enumerate(e_vals):
 plt.show()
 
 
-# In[ ]:
+# In[89]:
 
 
 del A,K,M,a,ax,e_vals,e_vecs,fig,i,j,k0,k1,k2,m0,m1,offset,t,w
@@ -1390,7 +1390,7 @@ plt.close('all')
 # R_5 I_2 + R_3 I_3 + R_2 I_2 = V_2
 # \end{equation}
 
-# In[ ]:
+# In[90]:
 
 
 r1, r2, r3, r4, r5 = 10., 22., 47., 22., 10.
@@ -1403,7 +1403,7 @@ A = [[1., 1., -1.],
 B = [0., v1, v2]
 
 
-# In[ ]:
+# In[91]:
 
 
 I = np.linalg.solve(A,B)
@@ -1415,7 +1415,7 @@ for i, ival in enumerate(I):
 # Material complementar:
 # * [Kirchhoff's circuit laws](https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws)
 
-# In[ ]:
+# In[92]:
 
 
 del A,B,I,i,ival,r1,r2,r3,r4,r5,v1,v2
@@ -1470,7 +1470,7 @@ del A,B,I,i,ival,r1,r2,r3,r4,r5,v1,v2
 # \end{split}
 # \end{equation}
 
-# In[ ]:
+# In[93]:
 
 
 angle = np.deg2rad(30.)
@@ -1495,7 +1495,7 @@ A = np.array([[1.,0.,0.,-cos,-1.,0.,0.,0.,0.,0.,0.,0.,0.,0.],
 B = np.array([0.,0.,0.,0.,0.,0.,0.,0.,0.,F5,0.,F6,0.,F7])
 
 
-# In[ ]:
+# In[94]:
 
 
 I = np.linalg.solve(A,B)
@@ -1504,7 +1504,7 @@ for i, key in enumerate(['F1x','F1y','F4y','F15','F12','F23','F25','F27','F34','
     print('{0:2d}: {1} = {2:5.2f}kN'.format(i,key,I[i]))
 
 
-# In[ ]:
+# In[95]:
 
 
 del A,B,F5,F6,F7,I,angle,cos,i,key,sin
